@@ -1,0 +1,142 @@
+.Calculate {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.backArrow {
+    height: 1.5rem;
+    padding-right: 10px;
+    fill: white;
+}
+
+.backButton {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 10px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-panel {
+    width: 600px;
+    text-align: center;
+}
+
+.component {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2rem;
+}
+
+.graphic-container {
+    background-color: whitesmoke;
+    border-radius: 15px 15px 2px 2px;
+    width: 500px;
+    text-align: center;
+}
+
+.input-container {
+    background-color: #c7d3eb;
+    border-radius: 2px 2px 15px 15px;
+    margin: 20px 0 30px 0;
+    width: 500px;
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    border: none;
+    background-color: #7bace4;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    margin: 5px 0 5px 0;
+    padding-left: 20px;
+    font-size: 1rem;
+    transition: 0.2s;
+    outline: none;
+}
+
+input:focus {
+    background-color: #4895ef;
+}
+
+::placeholder {
+    color: #2b80e0;
+    transition: 0.2s;
+}
+
+.config-container {
+    background-color: #d7c9ed;
+    border-radius: 15px;
+    margin: 0 0 30px 20px;
+    width: 300px;
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+    .content {
+        display: block;
+        text-align: center;
+    }
+    .config-container {
+        margin: 0 0 30px 0; 
+        width: 500px;
+    }
+    .main-panel {
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .component {
+        width: 400px;
+    }
+    canvas {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .component {
+        width: 300px;
+    }
+    .main-panel {
+        width: 400px;
+    }
+    canvas {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .component {
+        width: 250px;
+    }
+    .main-panel {
+        width: 350px;
+    }
+    .content {
+        width: 100%;
+    }
+    canvas {
+        width: 150px;
+        height: 150px;
+    }
+}
