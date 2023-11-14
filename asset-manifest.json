@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/math-react-app/static/css/main.10392f6e.css",
+    "main.js": "/math-react-app/static/js/main.73f3afb8.js",
+    "static/js/787.e8a5cdf3.chunk.js": "/math-react-app/static/js/787.e8a5cdf3.chunk.js",
+    "index.html": "/math-react-app/index.html",
+    "main.10392f6e.css.map": "/math-react-app/static/css/main.10392f6e.css.map",
+    "main.73f3afb8.js.map": "/math-react-app/static/js/main.73f3afb8.js.map",
+    "787.e8a5cdf3.chunk.js.map": "/math-react-app/static/js/787.e8a5cdf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10392f6e.css",
+    "static/js/main.73f3afb8.js"
+  ]
+}
